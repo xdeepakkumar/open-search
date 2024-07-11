@@ -11,15 +11,15 @@ public class SwaggerConfig {
 
     @Bean
     public OpenAPI apiInfo() {
-        return new OpenAPI().info(new Info().title("Spring Data OpenSearch example")
-                .description("Spring Data OpenSearch example with Testcontainers")
+        return new OpenAPI().info(new Info().title("Spring Data OpenSearch")
+                .description("Spring Data OpenSearch example")
                 .version("v0.0.2")
                 .contact(getContactDetails()));
     }
 
     private Contact getContactDetails() {
-        return new Contact().name("Mahdi Razavi")
-                .email("Razavi.Dev@gmail.com")
-                .url("https://m-razavi.github.io");
+        return new Contact().name("Deepak Kumar")
+                .email("deepak.kumar@gigaforce.io")
+                .url("https://github.com/xdeepakkumar/open-search");
     }
 }
